@@ -1,0 +1,32 @@
+body {
+    /* min-height: 100vh; */
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin-bottom: 9em;
+    position: relative;
+}
+
+.footer-section {
+    width: 100%;
+    /* height: 100px; */
+    position: fixed;
+    bottom: 0;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 30px;
+}
